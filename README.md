@@ -44,3 +44,10 @@ Iteration 4: Add More Recipes
 Add two more recipes with identical page structures to the recipe page you’ve already created.
 
 Don’t forget to link to the new recipes on the index page. Also, consider putting all the links in an unordered list so they aren’t all on one line.
+
+
+############### Recipe Site Reference ###################
+
+https://www.tasteofhome.com/recipes/balsamic-glazed-pork-tenderloin/
+
+https://www.tasteofhome.com/recipes/air-fryer-chicken-cutlet/
