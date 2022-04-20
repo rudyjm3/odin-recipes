@@ -8,15 +8,25 @@ h1{
 h2{
    font-size: 1.5rem;
    font-weight: 600;
+   margin: 1rem 0;
 }
 h3{
    font-size: 1rem;
    font-weight: 600;
 }
-
+p{
+   line-height: 1.5;
+}
 li{
    padding: 5px;
    line-height: 30px; 
+}
+a{
+   text-decoration: none;
+}
+.icons{
+   font-size: 20px;
+   margin-right: 8px;
 }
 /* =================================================================*/
 
@@ -24,17 +34,19 @@ body{
    display: flex;
    justify-content: center;
    align-items: center;
+   background-color: rgb(174, 198, 216);
+   padding: 4rem 0;
 }
 
 .recipes-container{
    width: 75%;
-   overflow: hidden;
+   background-color: rgb(247, 247, 247);
 }
 .recipe-wrapper{
    display: flex;
-   justify-content: center;
+   justify-content:flex-start;
    flex-wrap: wrap;
-   padding: 10px;
+   padding: 1.5rem;
    border-radius: 4px;
    border: 1px solid red;
 }
@@ -65,8 +77,12 @@ body{
 .makes > h3{
    margin-right: 15px;
 }
+.recipe-image-warpper{
+   margin-bottom: 1rem;
+}
 .recipe-image-warpper > img{
    width: 100%;
+   border-radius: 0.5rem;
 }
 
 
@@ -78,4 +94,7 @@ body{
 }
 .recipe-ingredients-list > li{
    border-bottom: 2px solid rgb(174, 174, 174);
+}
+.recipe-steps-list{
+   margin-left: 2rem;
 }
