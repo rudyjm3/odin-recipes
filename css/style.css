@@ -157,11 +157,11 @@ hr{
 .makes > h3{
    margin-right: 15px;
 }
-.recipe-image-warpper{
+.recipe-image-wrapper{
    width: 100%;
    margin-bottom: 1rem;
 }
-.recipe-image-warpper > img{
+.recipe-image-wrapper > img{
    width: 100%;
    border-radius: 0.5rem;
 }
